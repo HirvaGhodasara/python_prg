@@ -1,0 +1,6 @@
+gender_counts = df['Gender'].value_counts()
+gender_counts.plot(kind='bar', color=['blue', 'pink'])
+plt.title('Male vs Female Students')
+plt.xlabel('Gender')
+plt.ylabel('Count')
+plt.show()
